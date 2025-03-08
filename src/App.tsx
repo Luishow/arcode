@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, Clock, DollarSign, CheckCircle2, Gift, ArrowRight, Users, Trophy, AlertCircle, GamepadIcon, TrendingUp, Target, Zap, Star, Shield } from 'lucide-react';
-import flakesLogo from './logoflakes.png'
-import flakesImage from './Flakes.png'
-import heroImage from './fotohero.png'
+import { Calendar, Clock, DollarSign, CheckCircle2, Gift, ArrowRight, Users, Trophy, AlertCircle, TrendingUp, Target, Zap, Star, Shield } from 'lucide-react';
+import flakesLogo from './assets/logoflakes.png';
+import flakesImage from './assets/flakes.png';
+import heroImage from './assets/fotohero.png';
 
 function calculateTimeLeft() {
   const targetDate = new Date('2025-03-23T19:00:00-03:00'); // 23 de março de 2025 às 19h (Horário de Brasília)
